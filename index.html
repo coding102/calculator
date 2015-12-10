@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>timer</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">        
+    </head>
+	
+		  <body>
+    
+        <script>
+            
+            $(document).ready(function(){
+            function squareNumber (num){
+                var result = num;
+                for (var i = 0; i < squareNumber.length){
+                    result+= num;
+                    return num * num;
+            }    
+            
+                     $("#square-button").click(function(){
+                         
+                        var input = parseInt ($("#square-input").val());
+                        $("#solution").text("the result of the square is: " + squareNumber(input));
+                    
+                        
+                });
+            });
+        
+        </script>
+        
+        
+        
+        
+        
+        <label>Square this number:</label>
+        <input type="submit" value="Submit">
+        
+    </body>
+    	
+</html>
+
+
+
+
+
+
+
